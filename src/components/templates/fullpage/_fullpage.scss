@@ -1,38 +1,18 @@
 @use '/src/style/variables' as var;
 
-@import './style/normalize';
-@import './style/variables';
-@import './components/templates/fullpage/fullpage';
+/* * {
+  outline: 1px solid #f00 !important; // Turn on to see layout and overflowing containers better
+} */
 
-:root {
-  font-size: rem(16px);
-}
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  background: var.$almostBlack;
-  color: var.$offWhite;
-}
 
 //*****************************************************************************************
 //---------------------------------- Media query Tablet -----------------------------------
 //*****************************************************************************************
 
-@media only screen and (min-width: var.$tablet-bp) {
-  body {
-      background: rgb(184, 28, 28);
-  }
-}
+@media only screen and (min-width: var.$tablet-bp) {}
 
 //*****************************************************************************************
 //---------------------------------- Media query Desktop -----------------------------------
 //*****************************************************************************************
 
-@media only screen and (min-width: var.$desktop-bp) {
-  body {
-      background: rgb(48, 139, 76);
-  }
-}
+@media only screen and (min-width: var.$desktop-bp) {}
