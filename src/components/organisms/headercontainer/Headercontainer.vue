@@ -1,8 +1,9 @@
 <script setup>
+    import Menu from '../../molecules/menu/Menu.vue'
 </script>
 
 <template>
-    <div>Header</div>
+    <Menu />
 </template>
 
 <style scoped lang="scss">
