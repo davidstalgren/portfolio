@@ -1,0 +1,93 @@
+@use '/src/style/variables' as var;
+
+.project-card {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    height: 100%;
+    width: 300px;
+}
+  
+.project-card-header {
+    position: relative;
+}
+
+.project-card-header img {
+    width: 300px;
+}
+
+.project-card-title {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 16px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+}
+
+.project-card-body {
+    flex: 1;
+    padding: 16px;
+}
+
+.project-card-description {
+    margin-bottom: 16px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333333;
+}
+
+.project-card-tags {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project-card-tag {
+    padding: 6px 12px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #333333;
+    border-radius: 16px;
+}
+
+.project-card-footer {
+    padding: 16px;
+    text-align: center;
+}
+
+.project-card-link {
+    padding: 12px 24px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: #333333;
+    border-radius: 32px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.project-card-link:hover {
+    background-color: #222222;
+}
+
+//*****************************************************************************************
+//---------------------------------- Media query Tablet -----------------------------------
+//*****************************************************************************************
+  
+@media only screen and (min-width: var.$tablet-bp) {}
+  
+//*****************************************************************************************
+//---------------------------------- Media query Desktop ----------------------------------
+//*****************************************************************************************
+  
+@media only screen and (min-width: var.$desktop-bp) {}
