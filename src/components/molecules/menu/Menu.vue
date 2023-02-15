@@ -52,7 +52,7 @@ export default {
     <header :class="{ 'scrolled-nav': scrolledNav }">
         <nav>
             <div class="branding">
-                <img src="../../../assets/logo/logo.png" alt="">
+                <img src="../../../assets/logo/logo2.png" alt="">
             </div>
             <ul v-show="!mobile" class="navigation">
                 <li><router-link class="link" :to="{ name: 'Home' }">Home</router-link></li>
