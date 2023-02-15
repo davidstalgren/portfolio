@@ -49,7 +49,7 @@ export default {
 </script>
 
 <template>
-    <header :class="{ 'scrolled-nav': scrollPosition }">
+    <header :class="{ 'scrolled-nav': scrolledNav }">
         <nav>
             <div class="branding">
                 <img src="../../../assets/logo/logo.png" alt="">
