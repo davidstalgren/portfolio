@@ -1,0 +1,78 @@
+@use '/src/style/variables' as var;
+
+.hero__container {
+    background-image: url("../../../../src/assets/backgrounds/hero/markus-spiske-1LLh8k2_YFk-unsplash.jpg");
+    background-color: var.$almostBlack;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+    .hero__heading {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 2px solid var.$offWhite;
+        background-color: var.$almostBlack08;
+        padding: 2rem;
+        border-radius: 2rem;
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: var.$offWhite;
+        width: 60%;
+
+        .hero__heading__top {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            gap: 3rem;
+            align-items: center;
+
+            .hero__h1 {
+                font-size: 4rem;
+            }
+    
+            svg {
+                width: 250px;
+            }
+        }
+
+        .hero__h3 {
+            font-size: 1.5rem;
+            width: 70%;
+        }
+
+        .hero__button {
+            background-color: var.$offWhite;
+            border: none;
+            border-radius: 1rem;
+            color: var.$almostBlack;
+            padding: 0.6rem;
+            font-size: 1.5rem;
+            font-weight: 500;
+            text-transform: uppercase;
+
+            &:hover {
+                background-color: var.$hoverBlue;
+                box-shadow: 2px 2px 8px 8px var.$hoverBlueBoxShadow;
+                transition: 0.5s ease all;
+            }
+        }
+    }
+}
+
+//*****************************************************************************************
+//---------------------------------- Media query Tablet -----------------------------------
+//*****************************************************************************************
+  
+@media only screen and (min-width: var.$tablet-bp) {}
+  
+//*****************************************************************************************
+//---------------------------------- Media query Desktop ----------------------------------
+//*****************************************************************************************
+  
+@media only screen and (min-width: var.$desktop-bp) {}
