@@ -1,11 +1,15 @@
 <template>
-    <div>
-      <h1>Projects</h1>
-        <div class="project__cards">
-            <ProjectCard v-for="project in projects" :key="project.id" :project="project" />
-        </div>
+  <section id="projects">
+    <div class="projects__container">
+			<h2 class="projects__h2">
+				Projects
+			</h2>
+      <div class="project__cards">
+        <ProjectCard v-for="project in projects" :key="project.id" :project="project" />
+      </div>
     </div>
-  </template>
+  </section>
+</template>
   
   <script>
   import ProjectCard from '../../molecules/projectcard/ProjectCard.vue';
@@ -20,27 +24,39 @@
         projects: [
           {
             id: 1,
-            title: "Vue.js Project",
-            description: "This is a project built with Vue.js that does something cool.",
-            image: "https://source.unsplash.com/300x200/?random",
-            tags: ["Vue.js", "JavaScript", "Web Development"],
-            link: "https://github.com/your-username/vue-project"
+            title: "TODO app",
+            description: "School solo-project of a working Todo app in javascript that uses localstorage and visual-cues for deadlines",
+            image: "./src/assets/projects/images/todo.png",
+            tags: ["HTML", "SASS", "JavaScript", "Vite"],
+            link: "https://davidstalgren.github.io/school-project-javascript-todoapp/",
+            repo: "https://github.com/davidstalgren/school-project-javascript-todoapp"
           },
           {
             id: 2,
-            title: "React Project",
-            description: "This is a project built with React that does something awesome.",
-            image: "https://source.unsplash.com/300x200/?random",
-            tags: ["React", "JavaScript", "Web Development"],
-            link: "https://github.com/your-username/react-project"
+            title: "Rubberduck webshop",
+            description: "School group-project of an e-commerce site, containing Rubberducks.",
+            image: "./src/assets/projects/images/rubberduck.png",
+            tags: ["HTML", "SASS", "JavaScript"],
+            link: "https://davidstalgren.github.io/Rubberduck-Webshop-groupassignment-from-school/",
+            repo: "https://github.com/davidstalgren/Rubberduck-Webshop-groupassignment-from-school"
           },
           {
             id: 3,
-            title: "Coooool Project",
-            description: "This is a project built with GHATGPT that does something awesome.",
-            image: "https://source.unsplash.com/300x200/?random",
-            tags: ["React", "JavaScript", "Web Development", "CHATGPT"],
-            link: "https://github.com/your-username/react-project"
+            title: "Wheatly",
+            description: "School group-project in Graphic tools and interface design course. We both made a design in figma (link in readme) and were given one that we made into this website.",
+            image: "./src/assets/projects/images/wheatly.png",
+            tags: ["HTML", "SASS", "JavaScript", "Vite", "Gsap", "Vue", "Figma"],
+            link: "https://davidstalgren.github.io/school-project-graphic-design-wheatly/",
+            repo: "https://github.com/davidstalgren/school-project-graphic-design-wheatly"
+          },
+          {
+            id: 4,
+            title: "To the Moon",
+            description: "One of the first projects in my education was to follow a design with only HTML and CSS. This was the result.",
+            image: "./src/assets/projects/images/tothemoon.png",
+            tags: ["HTML", "SASS"],
+            link: "https://davidstalgren.github.io/to-the-moon-school-project/",
+            repo: "https://github.com/davidstalgren/to-the-moon-school-project"
           }
         ]
       }
