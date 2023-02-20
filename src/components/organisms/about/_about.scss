@@ -1,9 +1,19 @@
 @use '/src/style/variables' as var;
 
-div {
-    border: 1px solid red;
+#about {
+    display: flex;
+    justify-content: center;
+}
+
+.about__container {
+    width: 90%;
+    padding: 1rem;
 }
   
+.about__list__container {
+    display: flex;
+    flex-direction: row;
+}
 //*****************************************************************************************
 //---------------------------------- Media query Tablet -----------------------------------
 //*****************************************************************************************

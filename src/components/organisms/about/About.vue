@@ -2,7 +2,50 @@
 </script>
 
 <template>
-    <div>About</div>
+	<section id="about">
+		<div class="about__container">
+			<h2 class="about__h2">
+				About me?
+			</h2>
+			<p class="about__text">
+				I'm David and very pleased that you dropped by.
+			</p>
+			<p class="about__text">
+				Currently I'm a Front-End Developer student at Medieinstitutet in Stockholm, Sweden.
+				I started this journey in the fall of 2022 and will graduate to the summer of 2024. 
+			</p>
+			<p class="about__text">
+				I will be looking for a LIA (internship) for the fall of 2023.
+			</p>
+			<p class="about__text">
+				By that time I will have gone through most of the classes at school so my base skill tree would look something like this:
+			</p>
+			<div class="about__list__container">
+			<ul>
+				<li>HTML</li>
+				<li>CSS/SASS</li>
+				<li>JavaScript</li>
+				<li>TypeScript</li>
+				<li>Vite</li>
+				<li>Parcel</li>
+				<li>Git</li>
+				<li>Testing (Jest / Cypress)</li>
+			</ul>
+			<ul>
+				<li>API-Development</li>
+				<li>Node</li>
+				<li>NoSQL</li>
+				<li>SQL</li>
+				<li>React</li>
+				<li>Vue</li>
+				<li>UI/UX</li>
+			</ul>
+			</div>
+			<p class="about__text">
+				I would atleast concider myself to have basic knowledge of all the above listed techs once I'm off to my first LIA next fall.
+			</p>
+		</div>
+	</section>
 </template>
 
 <style scoped lang="scss">
