@@ -8,10 +8,11 @@
 				About me?
 			</h2>
 			<p class="about__text">
-				I'm David and very pleased that you dropped by.
+				I'm David and very pleased that you dropped by. I'm located just outside of Kristianstad in the southern parts of Sweden.
 			</p>
 			<p class="about__text">
 				Currently I'm a Front-End Developer student at Medieinstitutet in Stockholm, Sweden.
+				This is fulltime studies done remotley. 
 				I started this journey in the fall of 2022 and will graduate to the summer of 2024. 
 			</p>
 			<p class="about__text">
