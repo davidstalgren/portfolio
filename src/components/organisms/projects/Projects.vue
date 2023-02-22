@@ -11,8 +11,12 @@
   </section>
 </template>
   
-  <script>
+<script>
   import ProjectCard from '../../molecules/projectcard/ProjectCard.vue';
+  import todoImg from '../../../assets/projectcards/todo.png';
+  import rubberDuckImg from '../../../assets/projectcards/rubberduck.png';
+  import wheatlyImg from '../../../assets/projectcards/wheatly.png';
+  import toTheMoonImg from '../../../assets/projectcards/tothemoon.png';
   
   export default {
     name: 'Projects',
@@ -26,7 +30,7 @@
             id: 1,
             title: "TODO app",
             description: "School solo-project of a working Todo app in javascript that uses localstorage and visual-cues for deadlines",
-            image: "../../../../src/assets/projectcards/todo.png",
+            image: todoImg,
             tags: ["HTML", "SASS", "JavaScript", "Vite"],
             link: "https://davidstalgren.github.io/school-project-javascript-todoapp/",
             repo: "https://github.com/davidstalgren/school-project-javascript-todoapp"
@@ -35,7 +39,7 @@
             id: 2,
             title: "Rubberduck webshop",
             description: "School group-project of an e-commerce site, containing Rubberducks.",
-            image: "./src/assets/projectcards/rubberduck.png",
+            image: rubberDuckImg,
             tags: ["HTML", "SASS", "JavaScript"],
             link: "https://davidstalgren.github.io/Rubberduck-Webshop-groupassignment-from-school/",
             repo: "https://github.com/davidstalgren/Rubberduck-Webshop-groupassignment-from-school"
@@ -44,7 +48,7 @@
             id: 3,
             title: "Wheatly",
             description: "School group-project in Graphic tools and interface design course. We both made a design in figma (link in readme) and were given one that we made into this website.",
-            image: "./src/assets/projectcards/wheatly.png",
+            image: wheatlyImg,
             tags: ["HTML", "SASS", "JavaScript", "Vite", "Gsap", "Vue", "Figma"],
             link: "https://davidstalgren.github.io/school-project-graphic-design-wheatly/",
             repo: "https://github.com/davidstalgren/school-project-graphic-design-wheatly"
@@ -53,7 +57,7 @@
             id: 4,
             title: "To the Moon",
             description: "One of the first projects in my education was to follow a design with only HTML and CSS. This was the result.",
-            image: "./src/assets/projectcards/tothemoon.png",
+            image: toTheMoonImg,
             tags: ["HTML", "SASS"],
             link: "https://davidstalgren.github.io/to-the-moon-school-project/",
             repo: "https://github.com/davidstalgren/to-the-moon-school-project"
@@ -62,7 +66,7 @@
       }
     }
   }
-  </script>
+</script>
 
 <style scoped lang="scss">
 @import '_projects.scss'
