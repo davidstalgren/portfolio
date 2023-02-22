@@ -26,7 +26,7 @@
             id: 1,
             title: "TODO app",
             description: "School solo-project of a working Todo app in javascript that uses localstorage and visual-cues for deadlines",
-            image: "../../../assets/projects/images/todo.png",
+            image: "./src/assets/projects/images/todo.png",
             tags: ["HTML", "SASS", "JavaScript", "Vite"],
             link: "https://davidstalgren.github.io/school-project-javascript-todoapp/",
             repo: "https://github.com/davidstalgren/school-project-javascript-todoapp"
@@ -35,7 +35,7 @@
             id: 2,
             title: "Rubberduck webshop",
             description: "School group-project of an e-commerce site, containing Rubberducks.",
-            image: "../../../assets/projects/images/rubberduck.png",
+            image: "./src/assets/projects/images/rubberduck.png",
             tags: ["HTML", "SASS", "JavaScript"],
             link: "https://davidstalgren.github.io/Rubberduck-Webshop-groupassignment-from-school/",
             repo: "https://github.com/davidstalgren/Rubberduck-Webshop-groupassignment-from-school"
@@ -44,7 +44,7 @@
             id: 3,
             title: "Wheatly",
             description: "School group-project in Graphic tools and interface design course. We both made a design in figma (link in readme) and were given one that we made into this website.",
-            image: "../../../assets/projects/images/wheatly.png",
+            image: "./src/assets/projects/images/wheatly.png",
             tags: ["HTML", "SASS", "JavaScript", "Vite", "Gsap", "Vue", "Figma"],
             link: "https://davidstalgren.github.io/school-project-graphic-design-wheatly/",
             repo: "https://github.com/davidstalgren/school-project-graphic-design-wheatly"
@@ -53,7 +53,7 @@
             id: 4,
             title: "To the Moon",
             description: "One of the first projects in my education was to follow a design with only HTML and CSS. This was the result.",
-            image: "../../../assets/projects/images/tothemoon.png",
+            image: "./src/assets/projects/images/tothemoon.png",
             tags: ["HTML", "SASS"],
             link: "https://davidstalgren.github.io/to-the-moon-school-project/",
             repo: "https://github.com/davidstalgren/to-the-moon-school-project"
@@ -63,8 +63,7 @@
     }
   }
   </script>
-https://github.com/davidstalgren/portfolio/blob/main/src/assets/projects/images/todo.png
-https://github.com/davidstalgren/portfolio/blob/1d8aea845be5b6ec60f37ab165b65fa1c19774a6/src/assets/projects/images/todo.png
+
 <style scoped lang="scss">
 @import '_projects.scss'
 </style>
