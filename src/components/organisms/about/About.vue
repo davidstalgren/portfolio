@@ -45,6 +45,10 @@
 			<p class="about__text">
 				I would atleast concider myself to have basic knowledge of all the above listed techs once I'm off to my first LIA next fall.
 			</p>
+			<p class="about__text">
+				This portfolio was made with Vue, something I at the time of setting the project up had only glimpsed in a previous course and never set up a solo project with. This made up for a challenge, and I like the challenges you get when coding.<br>
+				Problems were plenty but seems I got out the other end with some more knowledge than I started with and that's what matters!
+			</p>
 		</div>
 	</section>
 </template>
