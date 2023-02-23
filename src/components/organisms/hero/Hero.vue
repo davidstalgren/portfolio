@@ -523,7 +523,9 @@ onMounted(() => {
           </svg>
         </div>
         <h3 class="hero__h3">...and I'm loading up on knowledge to one day finally call myself a Front End Developer</h3>
-        <button class="hero__button">Learn more</button>
+        <form action="#about">
+          <button type="submit" class="hero__button">Learn more</button>
+        </form>
       </div>
     </div>
   </section>
