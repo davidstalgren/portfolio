@@ -55,20 +55,20 @@ export default {
                 <img src="../../../assets/logo/logo2.png" alt="">
             </div>
             <ul v-show="!mobile" class="navigation">
-                <li><router-link class="link" :to="{ name: 'Home' }">Home</router-link></li>
-                <li><router-link class="link" :to="{ name: 'About' }">About</router-link></li>
-                <li><router-link class="link" :to="{ name: 'Projects' }">Projects</router-link></li>
-                <li><router-link class="link" :to="{ name: 'Contact' }">Contact</router-link></li>
+                <li><a href="#top" class="link">Home</a></li>
+                <li><a href="#about" class="link">About</a></li>
+                <li><a href="#projects" class="link">Projects</a></li>
+                <li><a href="#contact" class="link">Contact</a></li>
             </ul>
             <div class="icon">
                 <i @click="toggleMobileNav" v-show="mobile" class="far fa-bars" :class="{ 'icon-active' : mobileNav }"></i>
             </div>
             <transition name="mobile-nav">
                 <ul v-show="mobileNav" class="dropdown-nav">
-                    <li><router-link class="link" :to="{ name: 'Home' }">Home</router-link></li>
-                    <li><router-link class="link" :to="{ name: 'About' }">About</router-link></li>
-                    <li><router-link class="link" :to="{ name: 'Projects' }">Projects</router-link></li>
-                    <li><router-link class="link" :to="{ name: 'Contact' }">Contact</router-link></li>
+                    <li><a href="#top" class="link">Home</a></li>
+                    <li><a href="#about" class="link">About</a></li>
+                    <li><a href="#projects" class="link">Projects</a></li>
+                    <li><a href="#contact" class="link">Contact</a></li>
                 </ul>
             </transition>
         </nav>
