@@ -17,7 +17,7 @@
 			</div>
 			<div class="contact__icons">
 				<a href="https://www.linkedin.com/in/davidstalgren/" target="_blank"><img src="../../../assets/icons/icons8-linkedin-100.svg" alt="linkedIn icon" width="50" height="50"></a>
-        <a href="https://github.com/davidstalgren" target="_blank"><img src="../../../assets/icons/icons8-github-100.svg" alt="Github icon" width="50" height="50"></a>
+      			<a href="https://github.com/davidstalgren" target="_blank"><img src="../../../assets/icons/icons8-github-100.svg" alt="Github icon" width="50" height="50"></a>
 				<a href="mailto:david.stalgren@medieinstitutet.se?subject=Let us Talk!" target="_blank"><img src="../../../assets/icons/icons8-envelope-100.png" alt="Mail icon" width="50" height="50"></a>
 			</div>
 			<div class="contact__links">
